@@ -15,7 +15,8 @@
 			<li class="nav-item"><a class="nav-link" href="add_notes.jsp">Add
 					Note</a></li>
 
-			<li class="nav-item"><a class="nav-link">Disabled</a></li>
+			<li class="nav-item"><a class="nav-link" href="all_notes.jsp">Show
+					Notes</a></li>
 		</ul>
 		<form class="form-inline my-2 my-lg-0">
 			<input class="form-control mr-sm-2" type="search"

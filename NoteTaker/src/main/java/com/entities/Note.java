@@ -3,6 +3,7 @@ package com.entities;
 import java.util.Date;
 import java.util.Random;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -14,6 +15,7 @@ public class Note {
 	@Id
 	private int id;
 	private String title;
+	@Column(length = 1500)
 	private String content;
 	private Date addedDate;
 
@@ -21,7 +23,7 @@ public class Note {
 		super();
 	}
 
-	public Note(int id, String title, String content, Date addedDate) {
+	public Note(String title, String content, Date addedDate) {
 		super();
 		this.id = new Random().nextInt(100000);// new Random id for new Object
 		this.title = title;
