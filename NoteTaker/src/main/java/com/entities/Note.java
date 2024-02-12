@@ -17,14 +17,13 @@ public class Note {
 	private String content;
 	private Date addedDate;
 
-	
 	public Note() {
 		super();
 	}
 
 	public Note(int id, String title, String content, Date addedDate) {
 		super();
-		this.id = new Random().nextInt(100000);//new Random id for new Object
+		this.id = new Random().nextInt(100000);// new Random id for new Object
 		this.title = title;
 		this.content = content;
 		this.addedDate = addedDate;
