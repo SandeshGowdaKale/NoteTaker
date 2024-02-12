@@ -12,13 +12,7 @@
 	<property name = "hbm2ddl.auto">update</property>
 	<property name = "show_sql">true</property>
 	<property name="format_sql">true</property>
-		<mapping class="com.tut.Student"></mapping>
-		<mapping class="com.tut.Address"></mapping>
-		<mapping class="com.tut.Certificate"></mapping>
-		<mapping class="com.map.Question"></mapping>
-	<mapping class="com.map.Answer"></mapping>
-	<mapping class="com.mapmanytomany.Emp"></mapping>
-	<mapping class="com.mapmanytomany.Project"></mapping>
-
+	<mapping class="com.entities.Note"></mapping>
+		
 </session-factory>
 </hibernate-configuration>
